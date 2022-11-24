@@ -1,0 +1,34 @@
+.addTask {
+  display: flex;
+  flex-direction: column;
+  max-width: 500px;
+  margin: 40px auto 20px;
+}
+.addTask-title {
+  margin-bottom: 10px;
+  padding: 10px;
+  border-radius: 5px;
+  border: 2px solid #61dafb;
+}
+.addTask-description {
+  height: 100PX;
+  margin-bottom: 15px;
+  padding: 10px;
+  border-radius: 5px;
+  border: 2px solid #61dafb;
+  resize: none;
+}
+.addTask-button {
+  padding: 10px 20px;
+  margin: 0 auto;
+  border-radius: 5px;
+  border: 2px solid #61dafb;
+  background-color: aqua;
+  font-size: 16px;
+}
+.addTask-button:hover {
+  background-color: white;
+}
+.addTask-file__picture {
+  width: 50%;
+}

@@ -1,0 +1,72 @@
+.tasks {
+  margin-top: 50px;
+}
+.tasks-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 20px;
+  padding: 10px 20px;
+}
+.tasks-item:hover {
+  background-color: #ccffff;
+}
+.tasks-pause {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 20px;
+  padding: 10px 20px;
+  color: gray;
+  background-color: #61dafb;
+}
+.purpose {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  width: 700px;
+  margin-right: 20px;
+}
+.purpose-item {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  max-width: 400px;
+}
+.purpose-item__title {
+  margin-right: 20px;
+}
+.purpose-item__description {
+  margin-right: 20px;
+}
+.purpose-item__img {
+  width: 80%;
+}
+.purpose-title {
+  margin-right: 80px;
+  padding: 10px;
+  border-radius: 5px;
+  border: 2px solid #61dafb;
+}
+.purpose-description {
+  height: 50PX;
+  margin-bottom: 15px;
+  width: 500px;
+  padding: 0 10px;
+  border-radius: 5px;
+  border: 2px solid #61dafb;
+  resize: none;
+}
+.buttons-icon {
+  padding: 8px 10px;
+  background-color: white;
+  border: 2px solid #61dafb;
+  border-radius: 5px;
+}
+.buttons-icon:hover {
+  background-color: aqua;
+}
+.buttons-icon.edit {
+  margin-right: 20px;
+  margin-left: 20px;
+}
